@@ -13,3 +13,20 @@ I am 36 years old. I want to gain new knowledge and skills and develop further i
 * JavaScript 
 * Git
 
+## Code Example
+```function sum(a, b) {
+  return a + b;
+}
+
+let result = sum(1, 2);
+alert( result );
+```
+
+## Education
+* Belarusian State Economic University
+    * Faculty of Law
+* HTML Akademy
+
+## Languages
+* Russian - native speaker.
+* English - A2
