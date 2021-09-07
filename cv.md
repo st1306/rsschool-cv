@@ -14,7 +14,8 @@ I am 36 years old. I want to gain new knowledge and skills and develop further i
 * Git
 
 ## Code Example
-```function sum(a, b) {
+```javascript
+function sum(a, b) {
   return a + b;
 }
 
