@@ -8,14 +8,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <div class="me">
-<img class="photo" src="images/photo.jpg" alt="Моё фото" width="125">
+<header class="page-header">
+<img class="photo" src="images/photo.jpg" alt="Моё фото" height="150">
+<div class="cap">
+<nav class="menu">
+    <a class="nav" href="#contact">Contact</a>
+    <a class="nav" href="#about">About me</a>
+    <a class="nav" href="#skills">Skills</a>
+    <a class="nav" href="#code">Code</a>
+    <a class="nav" href="#ed">Education</a>
+    <a class="nav" href="#lang">Languages</a>
+    </nav>
     <h1 class="name">Smirnova Tatsiana</h1> 
 </div>
  </header>
  <section>
-<h2>Contact information</h2>
+<h2 id="contact">Contact information</h2>
 <ul class="ul1">
     <li>Email: smirnovat.kino@gmail.com</li>
     <li>Discord: @st1306</li>
@@ -24,12 +32,12 @@
     </section>
 
     <section>
-    <h2>About Me</h2>
+    <h2 id="about">About Me</h2>
     <p>I am 36 years old. I want to gain new knowledge and skills and develop further in this direction.</p>
     </section>
 
     <section>
-<h2>Skills</h2>
+<h2 id="skills">Skills</h2>
 <ul>
     <li>HTML</li>
     <li>CSS</li>
@@ -37,24 +45,24 @@
     <li>Git</li>
     </ul>
     </section>
-    <article>
-<h2>Code Example</h2>
+    <section>
+<h2 id="code">Code Example</h2>
 <pre>function sum(a, b) {
     return a + b;
   }
   
   let result = sum(1, 2);
   alert( result );</pre>
-  </article>
+    </section>
   <section>
-<h2>Education</h2>
+<h2 id="ed">Education</h2>
 <ul>
     <li>Belarusian State Economic University: faculty of law</li>
     <li>HTML Akademy</li>
 </ul>
 </section>
 <section>
-<h2>Languages</h2>
+<h2 id="lang">Languages</h2>
 <ul>
     <li>Russian - native speaker.</li>
     <li>English - A2</li>

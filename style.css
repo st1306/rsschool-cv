@@ -9,8 +9,10 @@ body {
     color: #222222;
     background-color: #FFFAF0;
   }
-.me {
-    display: flex;
+.page-header {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    column-gap: 200px;
     height: 150px;
     background-color: #DEB887;
   }
@@ -18,12 +20,34 @@ body {
     margin-left: 100px;
     margin-right: 50px;
 }
+.cap {
+    display: grid;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    row-gap: 0;
+}
+.menu {
+  font-size: 15px;  
+}
+.nav {
+display: inline-block;
+vertical-align: top;
+text-decoration: none;
+color: brown;
+margin: 0 20px;
+transition: color 0.1s linear;
+}
+.nav:hover {
+    color: #FFFAF0;
+}
 .name {
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 50px;
-    font-weight: 700;
-    font-size: 40px;
+    height: 50px;
+    padding: 0;
+    padding-left: 20px;
+    font-size: 45px;
+    vertical-align: center;
+    text-align: left;
     }
 h2 {
     padding: 10px;
