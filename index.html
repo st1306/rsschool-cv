@@ -1,51 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
-        <title>Page about me</title>
-        </head>
-    <body>
-<header>
-    <div class="me">
-<img class="photo" src="images/photo.jpg" alt="Моё фото" width="125">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page about me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/rainbow.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+</head>
+<body>
+<header class="page-header">
+<img class="photo" src="images/photo.jpg" alt="Моё фото" height="150">
+<div class="cap">
+<nav class="menu">
+    <a class="nav" href="#contact">Contact</a>
+    <a class="nav" href="#about">About me</a>
+    <a class="nav" href="#skills">Skills</a>
+    <a class="nav" href="#code">Code</a>
+    <a class="nav" href="#ed">Education</a>
+    <a class="nav" href="#lang">Languages</a>
+    </nav>
+    <div class="burger-menu">
+        <input id="menu-toggle" type="checkbox" />
+        <label class="menu-btn" for="menu-toggle">
+          <span></span>
+        </label>
+        <ul class="menubox">
+                <li><a class="menu-item" href="#contact">Contact</a></li>
+                <li><a class="menu-item" href="#about">About me</a></li>
+                <li><a class="menu-item" href="#skills">Skills</a></li>
+                <li><a class="menu-item" href="#code">Code</a></li>
+                <li><a class="menu-item" href="#ed">Education</a></li>
+                <li><a class="menu-item" href="#lang">Languages</a></li>
+        </ul>
+      </div>
     <h1 class="name">Smirnova Tatsiana</h1> 
 </div>
  </header>
-<h2>Contact information</h2>
+ <section>
+<h2 id="contact">Contact information</h2>
 <ul class="ul1">
     <li>Email: smirnovat.kino@gmail.com</li>
     <li>Discord: @st1306</li>
     <li>Phone: +375447926508</li>
     </ul>
+    </section>
 
-    <h2>About Me</h2>
+    <section>
+    <h2 id="about">About Me</h2>
     <p>I am 36 years old. I want to gain new knowledge and skills and develop further in this direction.</p>
+    </section>
 
-<h2>Skills</h2>
+    <section>
+<h2 id="skills">Skills</h2>
 <ul>
     <li>HTML</li>
     <li>CSS</li>
     <li>JavaScript</li>
     <li>Git</li>
     </ul>
-<h2>Code Example</h2>
-<pre>function sum(a, b) {
+    </section>
+    <section>
+<h2 id="code">Code Example</h2>
+<pre><code class="html">function sum(a, b) {
     return a + b;
   }
   
   let result = sum(1, 2);
-  alert( result );</pre>
-<h2>Education</h2>
+  alert( result );</code></pre>
+    </section>
+  <section>
+<h2 id="ed">Education</h2>
 <ul>
     <li>Belarusian State Economic University: faculty of law</li>
     <li>HTML Akademy</li>
 </ul>
-<h2>Languages</h2>
+</section>
+<section>
+<h2 id="lang">Languages</h2>
 <ul>
     <li>Russian - native speaker.</li>
     <li>English - A2</li>
 </ul>
+</section>
 <footer class="end">
     <div class="container">
     <p class="data">© 2021</p>
@@ -59,5 +98,7 @@
 </footer>
 </body>
 </html>
+
+
 
 
