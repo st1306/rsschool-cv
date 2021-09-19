@@ -44,6 +44,9 @@ transition: color 0.1s linear;
 .nav:hover {
     color: #FFFAF0;
 }
+.burger-menu {
+    display: none;
+}
 .menu-btn{
     display: inline-block;
     align-items: center;
@@ -73,9 +76,6 @@ transition: color 0.1s linear;
     content: '';
     top: 8px;
   }  
-  .burger-menu {
-         
-  }
   .menubox {
     display: none;
     background-color: #DEB887;
@@ -110,6 +110,14 @@ transition: color 0.1s linear;
   }
   #menu-toggle:checked ~ .menubox{
     display: block;
+  }
+  @media screen and (max-width:767px) {
+     .menu {
+         display: none;
+     } 
+     .burger-menu {
+         display: block;
+     }
   }
 .name {
     height: 50px;
